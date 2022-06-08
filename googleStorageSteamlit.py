@@ -2,6 +2,7 @@ import streamlit as st
 from google.oauth2 import service_account
 from google.cloud import storage
 
+st.title('Test wizualizacji na wbe serwerze')
 # Create API client.
 credentials = service_account.Credentials.from_service_account_info(
     st.secrets["gpc_service_account"]
